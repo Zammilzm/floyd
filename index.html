@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Floyd</title>
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/theme-floyd.css">
+	<link rel="stylesheet" href="assets/css/theme-helper.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="sidebar">
+			<div id="sidebar-wrapper">
+				<div class="sidebar-title">
+					<span class="text-size-40 text-loose">floyd</span><br>
+					<span class="text-size-18 text-grey">colorful as it is</span>
+				</div>
+				<div class="sidebar-avatar">
+					<div class="sidebar-avatar-image"><img src="assets/images/me.PNG" alt="" class="img-circle"></div>
+					<div class="sidebar-avatar-text">Ainul</div>
+				</div>
+				<ul class="sidebar-nav">
+					<li><a href="#"><i class="fa fa-fw fa-home"></i><span>Dashboard</span></a></li>
+					<li><a href="#"><i class="fa fa-fw fa-star"></i><span>Features</span></a></li>
+					<li><a href="#"><i class="fa fa-fw fa-font"></i><span>Typography &amp Form</span></a></li>
+					<li><a href="#"><i class="fa fa-fw fa-window-maximize"></i><span>Panel &amp Alert</span></a></li>
+					<li><a href="#"><i class="fa fa-fw fa-paint-brush"></i><span>Theme</span></a></li>
+					<li>
+						<a href="#nav-dropdown1" data-toggle="collapse" aria-controls="nav-dropdown1">
+							<i class="fa fa-fw fa-bars"></i><span>Dropdown</span>
+						</a>
+						<ul class="sidebar-nav-child collapse collapseable" id="nav-dropdown1">
+							<li><a href="#"><i class="fa fa-fw fa-bars"></i><span>Menu-1</span></a></li>
+							<li><a href="#"><i class="fa fa-fw fa-bars"></i><span>Menu-2</span></a></li>
+							<li><a href="#"><i class="fa fa-fw fa-bars"></i><span>Menu-3</span></a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="sidebar-footer">
+					<button class="btn btn-block"><i class="fa fa-comment-o space-right-10"></i>contact me</button>
+				</div>
+			</div>
+		</div>
+		<div id="main-panel">
+			<div id="top-nav">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<!-- Navbar toggle button -->
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+								<i class="fa fa-bars"></i>
+							</button>
+							<!-- Sidebar toggle button -->
+							<!-- <button type="button" class="sidebar-toggle">
+								<i class="fa fa-bars"></i>
+							</button> -->
+							<a class="navbar-brand text-size-24" href="#">Dashboard</a>
+						</div>
+						<div class="collapse navbar-collapse" id="menu">
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-cog fa-stack-1x"></i>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-power-off fa-stack-1x"></i>
+										</span>
+									</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-user fa-stack-1x"></i>
+										</span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#"><i class="fa fa-fw fa-bell-o"></i> Action</a></li>
+										<li><a href="#"><i class="fa fa-fw fa-camera"></i> Another action</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div id="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12 col-md-3">
+							<div class="panel panel-default panel-fill">
+								<div class="panel-body">
+									<h3>Widget</h3>
+									<span>sub title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<div class="panel panel-success panel-fill">
+								<div class="panel-body">
+									<h3>Widget</h3>
+									<span>sub title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<div class="panel panel-warning panel-fill">
+								<div class="panel-body">
+									<h3>Widget</h3>
+									<span>sub title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<div class="panel panel-danger panel-fill">
+								<div class="panel-body">
+									<h3>Widget</h3>
+									<span>sub title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Panel dashboard</h3>
+								</div>
+								<div class="panel-body">
+									<p>Lorem ipsum <span class="text-size-20 space-20">testing</span> dolor sit amet, consectetur adipisicing elit. Dolorum ipsum perferendis laudantium officiis. Laborum dolorum blanditiis quam, laudantium at inventore nobis similique doloribus repellendus, sint voluptatum aspernatur sed dolores architecto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores eius veritatis, voluptate repellendus saepe veniam modi tempora, corporis dolor! Consectetur, labore quibusdam similique magni eligendi asperiores ut, delectus ipsa quia.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="panel panel-default panel-fill">
+								<div class="panel-heading">
+									<h3 class="panel-title">Panel dashboard</h3>
+								</div>
+								<div class="panel-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ipsum perferendis laudantium officiis. Laborum dolorum blanditiis quam, laudantium at inventore nobis similique doloribus repellendus, sint voluptatum aspernatur sed dolores architecto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores eius veritatis, voluptate repellendus saepe veniam modi tempora, corporis dolor! Consectetur, labore quibusdam similique magni eligendi asperiores ut, delectus ipsa quia.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="assets/plugins/jquery/jquery-3.1.1.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/theme-floyd.js"></script>
+</html>
