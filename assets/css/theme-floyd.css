@@ -308,7 +308,10 @@ p{
 	transform: translate3d(0,0,0);
 }
 .sidebar-show #main-panel{
-	transform: translate3d(75px,0,0);
+	/*transform: translate3d(75px,0,0);*/
+}
+.sidebar-close{
+	display: none;
 }
 
 @media(max-width: 992px){
@@ -370,6 +373,10 @@ p{
 
 	.sidebar-toggle{
 		visibility: visible;
+	}
+
+	.sidebar-close{
+		display: block;
 	}
 }
 

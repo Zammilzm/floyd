@@ -27,6 +27,10 @@ function sidebar_toggle()
 {
 	$(".sidebar-toggle").click(function(e){
 		e.preventDefault();
-		$("#wrapper").toggleClass('sidebar-show');
+		$("#wrapper").addClass('sidebar-show');
+
+		$(".sidebar-close a").click(function(a){
+			$("#wrapper").removeClass('sidebar-show');
+		});
 	});
 }
