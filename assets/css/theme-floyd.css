@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700');
 
 *{
 	padding: 0;
@@ -21,7 +21,7 @@ body, html{
 h1, h2, h3, h4, h5, h6,
 h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	margin: 0;
 	margin-bottom: 5px;
 }
@@ -92,7 +92,7 @@ p{
 	width: 100%;
 	margin-top: 10px;
 	font-size: 19px;
-	font-weight: 400;
+	font-weight: 500;
 	text-align: center;
 	color: #777;
 }
@@ -216,6 +216,8 @@ p{
 	color: #ff4d76;
 }
 
+/*PANEL*/
+
 .panel{
 	padding: 10px;
 	border-radius: 4px;
@@ -231,7 +233,7 @@ p{
 
 .panel-title, .modal-title{
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	text-transform: uppercase;
 	color: #AAA;
 }
@@ -305,6 +307,8 @@ p{
 	background-color: #FF7373;
 }
 
+/*MODAL*/
+
 .modal-header{
 	padding-top: 20px;
 }
@@ -323,6 +327,44 @@ p{
 	border-color: inherit;
 }
 
+/*ALERT*/
+
+.alert{
+	padding: 20px 15px;
+	border-radius: 3px;
+}
+.alert > strong{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.alert-default{
+	background-color: #FF4D76;
+	border-color: #ff1a4f;
+	color: rgba(0,0,0,.6);
+}
+.alert-info{
+	background-color: #73C9FF;
+	border-color: #1aa7ff;
+	color: rgba(0,0,0,.6);
+}
+.alert-success{
+	background-color: #4BC872;
+	border-color: #309c52;
+	color: rgba(0,0,0,.6);
+}
+.alert-warning{
+	background-color: #F5BB5F;
+	border-color: #f09a0f;
+	color: rgba(0,0,0,.6);
+}
+.alert-danger{
+	background-color: #FF7373;
+	border-color: #ff4d4d;
+	color: rgba(0,0,0,.6);
+}
+
+/*BUTTON*/
+
 .btn{
 	transition: background-color 0.5s ease;
 }
@@ -338,6 +380,9 @@ p{
 	background-color: #ff1a4f;
 }
 
+/*TEXT*/
+
+.text-default{color:  #ff4d76}
 .text-primary{color: #4A90E2}
 .text-info{color: #73C9FF}
 .text-success{color: #4BC872}
@@ -421,21 +466,25 @@ p{
 /*THEME CLASS*/
 /*PURPLE*/
 .floyd-purple .sidebar-nav li a:hover,
-.floyd-purple .sidebar-nav .active a,
+.floyd-purple .sidebar-nav .active > a,
 .floyd-purple .sidebar-nav-child li a:hover,
-.floyd-purple .sidebar-nav-child .active a,
+.floyd-purple .sidebar-nav-child .active > a,
 .floyd-purple .panel-default.panel-fill,
+.floyd-purple .modal-default .modal-content,
+.floyd-purple .alert-default,
 .floyd-purple .btn-floyd{
 	background-color: #CAA7E2;
 }
 .floyd-purple #top-nav > nav .navbar-nav li .fa-stack .fa:first-child,
-.floyd-purple .sidebar-title{
+.floyd-purple .sidebar-title,
+.floyd-purple .text-default{
 	color: #CAA7E2;
 }
 .floyd-purple .panel-default{
 	border-color: #CAA7E2;
 }
-.floyd-purple .btn-floyd{
+.floyd-purple .btn-floyd,
+.floyd-purple .alert-default{
 	border-color: #ba8cd9;
 }
 .floyd-purple .btn-floyd:hover{
@@ -444,21 +493,25 @@ p{
 
 /*BLUE*/
 .floyd-blue .sidebar-nav li a:hover,
-.floyd-blue .sidebar-nav .active a,
+.floyd-blue .sidebar-nav .active > a,
 .floyd-blue .sidebar-nav-child li a:hover,
-.floyd-blue .sidebar-nav-child .active a,
+.floyd-blue .sidebar-nav-child .active > a,
 .floyd-blue .panel-default.panel-fill,
+.floyd-blue .modal-default .modal-content,
+.floyd-blue .alert-default,
 .floyd-blue .btn-floyd{
 	background-color: #00AFD1;
 }
 .floyd-blue #top-nav > nav .navbar-nav li .fa-stack .fa:first-child,
-.floyd-blue .sidebar-title{
+.floyd-blue .sidebar-title,
+.floyd-blue .text-default{
 	color: #00AFD1;
 }
 .floyd-blue .panel-default{
 	border-color: #00AFD1;
 }
-.floyd-blue .btn-floyd{
+.floyd-blue .btn-floyd,
+.floyd-blue .alert-default{
 	border-color: #00aacc;
 }
 .floyd-blue .btn-floyd:hover{
@@ -467,21 +520,25 @@ p{
 
 /*RED*/
 .floyd-red .sidebar-nav li a:hover,
-.floyd-red .sidebar-nav .active a,
+.floyd-red .sidebar-nav .active > a,
 .floyd-red .sidebar-nav-child li a:hover,
-.floyd-red .sidebar-nav-child .active a,
+.floyd-red .sidebar-nav-child .active > a,
 .floyd-red .panel-default.panel-fill,
+.floyd-red .modal-default .modal-content,
+.floyd-red .alert-default,
 .floyd-red .btn-floyd{
 	background-color: #F63E38;
 }
 .floyd-red #top-nav > nav .navbar-nav li .fa-stack .fa:first-child,
-.floyd-red .sidebar-title{
+.floyd-red .sidebar-title,
+.floyd-red .text-default{
 	color: #F63E38;
 }
 .floyd-red .panel-default{
 	border-color: #F63E38;
 }
-.floyd-red .btn-floyd{
+.floyd-red .btn-floyd,
+.floyd-red .alert-default{
 	border-color: #f52b24;
 }
 .floyd-red .btn-floyd:hover{
@@ -490,21 +547,25 @@ p{
 
 /*GREEN*/
 .floyd-green .sidebar-nav li a:hover,
-.floyd-green .sidebar-nav .active a,
+.floyd-green .sidebar-nav .active > a,
 .floyd-green .sidebar-nav-child li a:hover,
-.floyd-green .sidebar-nav-child .active a,
+.floyd-green .sidebar-nav-child .active > a,
 .floyd-green .panel-default.panel-fill,
+.floyd-green .modal-default .modal-content,
+.floyd-green .alert-default,
 .floyd-green .btn-floyd{
 	background-color:#1FBBA6;
 }
 .floyd-green #top-nav > nav .navbar-nav li .fa-stack .fa:first-child,
-.floyd-green .sidebar-title{
+.floyd-green .sidebar-title,
+.floyd-green .text-default{
 	color:#1FBBA6;
 }
 .floyd-green .panel-default{
 	border-color:#1FBBA6;
 }
-.floyd-green .btn-floyd{
+.floyd-green .btn-floyd,
+.floyd-green .alert-default{
 	border-color: #1daf9c;
 }
 .floyd-green .btn-floyd:hover{
