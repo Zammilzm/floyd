@@ -2,7 +2,7 @@
 // sebagai warna icon sidebar.
 // Dapat ditambah atau diubah urutan sesuka hati.
 
-var color = ['#FF7373', '#BF73FF', '#7A73FF', '#739EFF','#73C9FF', '#F5BB5F', '#FF9F89'];
+var color = ['#FF7373','#BF73FF','#7A73FF', '#F5BB5F','#739EFF','#73C9FF','#FF9F89'];
 
 // PENTING!
 // Ini adalah kode jQuery yang diperlukan untuk 
