@@ -272,7 +272,7 @@ p{
 	border-color: #FF7373;
 }
 
-.panel-fill, .panel-fill .panel-heading, .panel-fill .panel-title,
+.panel-fill, .panel-fill .panel-heading, .panel-fill .panel-title, .panel-fill .panel-body *,
 .modal-default *, .modal-primary *, .modal-info *, .modal-success *, .modal-warning *, .modal-danger *{
 	color: #FFF;!important
 }
@@ -305,6 +305,17 @@ p{
 .panel-danger.panel-fill,
 .modal-danger .modal-content{
 	background-color: #FF7373;
+}
+
+/*FORM*/
+.form-control{
+	border-radius: 3px;
+}
+
+.form-group label{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #777;
 }
 
 /*MODAL*/
@@ -365,10 +376,6 @@ p{
 
 /*BUTTON*/
 
-.btn{
-	transition: background-color 0.5s ease;
-}
-
 .btn-floyd{
 	color: #FFF;
 	background-color:  #ff4d76;
@@ -378,6 +385,14 @@ p{
 .btn-floyd:hover{
 	color:#FFF;
 	background-color: #ff1a4f;
+}
+
+.btn{
+	transition: background-color 0.5s ease;
+	border-radius: 3px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	padding: 5px 15px;
 }
 
 /*TEXT*/
