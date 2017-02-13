@@ -149,7 +149,6 @@ p{
 	position: relative;
 	width: 100%;
 	padding: 10px 20px;
-	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -421,7 +420,7 @@ p{
 	.sidebar-avatar .sidebar-avatar-text,
 	.sidebar-nav > li > a > span,
 	.sidebar-nav-child > li > a > span,
-	.sidebar-footer button > span{
+	.sidebar-footer span{
 		display: none;
 	}
 

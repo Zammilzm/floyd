@@ -20,6 +20,10 @@
 	padding: 7px 15px;
 }
 
+.btn-line{
+	background-color: transparent;
+}
+
 /*TEXT CLASS*/
 .text-size-12{ font-size: 12px; }
 .text-size-14{ font-size: 14px; }
@@ -58,7 +62,7 @@
 .break-top-30{margin-top: 30px;}
 .break-top-50{margin-top: 50px;}
 .break-top-100{margin-top: 100px;}
-.break-bottomo-0{margin: 0px auto;}
+.break-bottom-0{margin: 0px auto;}
 .break-bottom-5{margin-bottom: 5px;}
 .break-bottom-10{margin-bottom: 10px;}
 .break-bottom-20{margin-bottom: 20px;}
