@@ -1,0 +1,6 @@
+1. "icon navbar kiri bkl ilang separo wktu d screen xs.. yg d kanan g ilang, tp drop down menu ny fluid k bwh pdhl g ad label ny jd kerasa bolong gmn gitu.. slider menu d sebelah kiri seharusny d style pke mini slider ar pke bwa'an bootstrap, kegedean klo pke default ny browser.. tmbhkn pilihan wrna yg lbh bnyk gan biar bs multi purpose.. bs dgn d bwt child color theme css ny."
+https://www.facebook.com/ipang.dwi?fref=ufi (Ipang Dwi)
+-
+2. "Saran saya ada pilihan buat ganti warna backgroundnya pasti jadi lebih menarik dan tampilannya tetap bisa dioperasikan dengan mudah saat dibuka dibrowser hp seperti operamini dan ucbrowser"
+https://www.facebook.com/bahar.sharingan?fref=ufi (Rony Ardiansyah)
+-
